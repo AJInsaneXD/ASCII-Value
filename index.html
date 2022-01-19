@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 10px;
+	border-width:30px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	
+	color:red!important;
+	
+}
+.madeby {
+     position: fixed;
+  bottom: 0px;
+  left: 0px;
+     border: 2px solid #000000;
+}
+
+.right {
+     position: fixed;
+  right: 0px;
+  top: 0px;
+     border: 2px solid #000000;
+}
+
+.up {
+    position: fixed;
+left: 0px;
+  top: 0px;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>ASCII value</title>
+</head>
+<body>
+
+<center>
+	<ul class="up">
+		<li class="links"><h1><u>Keyboard keys</u></h1></li>
+	</ul>
+	<!--- Create Canvas element --->
+	<canvas id="myCanvas" weight="5000" height="300"></canvas>
+	<div id="d1"></div>
+	<ul class="up">
+		<li class="right"><h4>
+			<b class="text-danger">NOTE : </b> PRESS ANY KEYBOARD KEY 
+		</h4></li>
+	</ul>
+
+<ul class="madeby">
+	<li class="links"><u>This Website Is Made By @Anshuman Joshi!</u></li>
+</ul>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
